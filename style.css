@@ -44,3 +44,10 @@ main , #evaluation-form {
 .lado-direito , .lado-esquerdo {
   width: 50%;
 }
+
+footer {
+  display: flex;
+  background-color: gray;
+  color: white;
+  justify-content: center;
+}

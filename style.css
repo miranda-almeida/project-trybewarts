@@ -10,9 +10,15 @@
   background-color: rgb(50, 167, 145);
 }
 
-#evaluation-form {
+main, #evaluation-form {
   display: flex;
-  width: 675px;
-  background: pink;
-  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.trybewarts-forms-logo {
+  height: 500px;
+  box-sizing: border-box;
+  padding: 30px;
+  align-self: center;
 }

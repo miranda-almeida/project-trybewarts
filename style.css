@@ -33,5 +33,14 @@ main , #evaluation-form {
 }
 
 .container {
-    display: flex;
+  display: flex;
+}
+
+#label-family , #label-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.lado-direito , .lado-esquerdo {
+  width: 50%;
 }

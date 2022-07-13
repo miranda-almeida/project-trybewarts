@@ -13,3 +13,19 @@ function enviar() {
 }
 
 submitBtn.addEventListener('click', enviar);
+
+const submitForm = document.getElementById('submit-btn');
+const checkbox = document.getElementById('agreement');
+
+submitForm.disabled = true;
+
+function ifChecked() {
+  if (checkbox.checked === false) {
+    submitForm.disabled = true;
+  }
+  if (checkbox.checked === true) {
+    submitForm.disabled = false;
+  }
+}
+
+checkbox.addEventListener('input', ifChecked);

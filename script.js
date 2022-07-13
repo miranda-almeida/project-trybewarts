@@ -6,9 +6,9 @@ function enviar() {
   const correctUser = 'tryber@teste.com';
   const correctPassword = '123456';
   if (username === correctUser && password === correctPassword) {
-    alert('Olá Tryber!');
+    alert('Olá, Tryber!');
   } else {
-    alert('Email ou senha inválidos');
+    alert('Email ou senha inválidos.');
   }
 }
 
